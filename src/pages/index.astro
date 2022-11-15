@@ -5,14 +5,21 @@ import Card from '../components/Card.astro';
 
 <Layout title="Home">
 	<main>
-		<h1>TEST INDEX</h1>
+		<div class="flex flex-col gap-2 items-center max-w-5xl mx-auto">
+			<div class="flex flex-col p-4 gap-4 text-center font-medium">
+				<div class="flex flex-row items-center gap-4 pt-10">
+					<div class="grid gap-4">
+						<p>Currently residing in Bellingham WA, I'm an Engineer and Developer.
+							Take a peek at some photography over on the right or check out the projects page to see some stuff I've gotten up to.</p>
+						<p>I went to school at Fort Lewis in Durango CO for Engineering, worked as an Aerospace Engineer at The Heliospace Corporation, 
+							and am currently teaching myself Web Development in conjunction with other Software Engineering techniques.</p>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-row p-4 gap-4">
+				Images
+			</div>
+		</div>
 	</main>
 </Layout>
 
-<style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-</style>
